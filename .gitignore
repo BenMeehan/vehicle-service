@@ -1,0 +1,64 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Node.js (for React frontend)
+frontend/node_modules/
+frontend/.env
+frontend/.next/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/dist/
+frontend/build/
+frontend/.nuxt/
+frontend/.vercel/
+frontend/.netlify/
+frontend/.git
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Production
+frontend/out/
+
+# Virtual environment for Django backend
+backend/venv/
+backend/.env
+
+# Django specific
+backend/staticfiles/
+backend/media/
+backend/db.sqlite3
+backend/*.log
+
+# Byte-compiled / optimized / DLL files
+backend/__pycache__/
+backend/*.py[cod]
+backend/*.so
+backend/*.egg-info/
+
+# Migrations
+backend/*/migrations/
+
+# Coverage reports
+backend/htmlcov/
+backend/.coverage
+backend/*.cover
+backend/.tox/
+backend/.nox/
+
+# Django collected static files
+backend/static/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+*.swp
+*.swo
+*.swm
